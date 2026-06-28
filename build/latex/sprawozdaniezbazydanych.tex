@@ -1941,20 +1941,12 @@ Dawid Szokało
 
 \end{enumerate}
 
-\sphinxlineitem{Kierunek}
-\sphinxAtStartPar
-Informatyka Techniczna, Politechnika Wrocławska
-
-\sphinxlineitem{Przedmiot}
-\sphinxAtStartPar
-Bazy Danych / Projekt Laboratoryjny
-
 \end{description}\end{quote}
 
 \sphinxstepscope
 
 
-\subsection{1. Model bezpieczeństwa CIA i ochrona infrastruktury}
+\subsection{Model bezpieczeństwa CIA i ochrona infrastruktury}
 \label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_1:model-bezpieczenstwa-cia-i-ochrona-infrastruktury}}\label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_1::doc}}
 \sphinxAtStartPar
 Rozważając bezpieczeństwo systemów bazodanowych, należy spojrzeć na problem warstwowo. Najniższą, a zarazem najbardziej fundamentalną warstwą jest ochrona samej infrastruktury sprzętowej i sieciowej, na której operuje silnik bazy danych (DBMS). Zanim przejdziemy do szczegółowych konfiguracji silnika, konieczne jest zdefiniowanie nadrzędnych celów bezpieczeństwa oraz zapewnienie izolacji środowiska uruchomieniowego.
@@ -2032,7 +2024,7 @@ Aby zminimalizować to ryzyko, stosuje się następujące praktyki:
 \sphinxstepscope
 
 
-\subsection{2. Ataki na bazy danych i luki w zabezpieczeniach}
+\subsection{Ataki na bazy danych i luki w zabezpieczeniach}
 \label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_2:ataki-na-bazy-danych-i-luki-w-zabezpieczeniach}}\label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_2::doc}}
 \sphinxAtStartPar
 Ponieważ bazy danych przechowują najbardziej krytyczne informacje organizacji, stanowią główny cel cyberataków. Według zestawień takich jak OWASP Top 10, podatności związane ze wstrzykiwaniem kodu (Injection) oraz błędną konfiguracją od lat utrzymują się w czołówce zagrożeń. Zrozumienie mechaniki tych ataków jest kluczowe do zaprojektowania skutecznych mechanizmów obronnych w warstwie aplikacyjnej i bazodanowej.
@@ -2168,7 +2160,7 @@ pozwoli narzędziu na wykrycie typu wstrzyknięcia (np. czasowe lub błędowe), 
 \sphinxstepscope
 
 
-\subsection{3. Zarządzanie tożsamością, uwierzytelnianie i autoryzacja}
+\subsection{Zarządzanie tożsamością, uwierzytelnianie i autoryzacja}
 \label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_3:zarzadzanie-tozsamoscia-uwierzytelnianie-i-autoryzacja}}\label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_3::doc}}
 \sphinxAtStartPar
 Po zabezpieczeniu infrastruktury sieciowej oraz aplikacji przed atakami typu Injection, kolejną linią obrony jest ścisła kontrola dostępu do samych danych. W architekturze systemów bazodanowych proces ten opiera się na trzech filarach: zarządzaniu tożsamością (Identity Management), uwierzytelnianiu (Authentication) oraz autoryzacji (Authorization). Prawidłowa implementacja tych mechanizmów gwarantuje, że zasada najmniejszego uprzywilejowania (PoLP \sphinxhyphen{} Principle of Least Privilege) może być skutecznie egzekwowana w całym systemie.
@@ -2252,7 +2244,7 @@ Zgodnie z dobrymi praktykami nurtu DevSecOps, środowiska produkcyjne powinny wy
 \sphinxstepscope
 
 
-\subsection{4. Kryptografia w bazach danych}
+\subsection{Kryptografia w bazach danych}
 \label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_4:kryptografia-w-bazach-danych}}\label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_4::doc}}
 \sphinxAtStartPar
 Nawet najbardziej rygorystyczne mechanizmy kontroli dostępu i izolacji sieciowej mogą zawieść w obliczu zaawansowanych ataków (tzw. APT \textendash{} Advanced Persistent Threats) lub błędów ludzkich. W myśl zasady obrony w głąb (Defense in Depth), ostatnią linią ochrony informacji jest kryptografia. Jej implementacja w środowiskach bazodanowych dzieli się na trzy główne obszary: ochronę danych w spoczynku, w tranzycie oraz w użyciu.
@@ -2324,7 +2316,7 @@ Ponadto, wracając do zagadnień z zakresu uwierzytelniania, należy pamiętać 
 \sphinxstepscope
 
 
-\subsection{5. Audyt, logowanie i wykrywanie anomalii}
+\subsection{Audyt, logowanie i wykrywanie anomalii}
 \label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_5:audyt-logowanie-i-wykrywanie-anomalii}}\label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_5::doc}}
 \sphinxAtStartPar
 Nawet najsilniejsze mechanizmy prewencyjne, takie jak kontrola dostępu czy szyfrowanie, nie gwarantują stuprocentowego bezpieczeństwa. W przypadku udanego ataku lub błędu wewnętrznego (tzw. zagrożenia \sphinxstyleemphasis{Insider Threat}), kluczowe staje się odtworzenie przebiegu zdarzeń. Temu celowi służą mechanizmy audytu i logowania, które stanowią fundament dla systemów wykrywania anomalii oraz zapewniają niezaprzeczalność (ang. \sphinxstyleemphasis{Non\sphinxhyphen{}repudiation}) operacji wykonywanych na danych.
@@ -2371,7 +2363,7 @@ System wykryje anomalię i podniesie alarm (lub zablokuje zapytanie), gdy np.:
 \sphinxstepscope
 
 
-\subsection{6. Bezpieczeństwo kopii zapasowych i Disaster Recovery}
+\subsection{Bezpieczeństwo kopii zapasowych i Disaster Recovery}
 \label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_6:bezpieczenstwo-kopii-zapasowych-i-disaster-recovery}}\label{\detokenize{rozdzial_2/rozdzial_27/rozdzial_6::doc}}
 \sphinxAtStartPar
 Systemy prewencyjne i detekcyjne nie zawsze są w stanie zatrzymać zaawansowane ataki, takie jak ransomware, czy też zapobiec fizycznym awariom infrastruktury. W takich scenariuszach ostateczną linią obrony stają się mechanizmy odtwarzania danych po awarii. Bezpieczeństwo samych kopii zapasowych jest równie krytyczne co bezpieczeństwo głównej instancji bazy danych \textendash{} skompromitowany backup często ostatecznie przekreśla szanse na powrót organizacji do normalnego funkcjonowania operacyjnego.

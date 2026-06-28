@@ -89,76 +89,76 @@
 \contentsline {subsection}{\numberline {2.6.5}Implementacja partycjonowania w PostgreSQL}{25}{subsection.2.6.5}%
 \contentsline {subsection}{\numberline {2.6.6}Ograniczenia i obejście w środowisku SQLite}{25}{subsection.2.6.6}%
 \contentsline {section}{\numberline {2.7}Bezpieczeństwo Baz Danych}{25}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}1. Model bezpieczeństwa CIA i ochrona infrastruktury}{26}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.1}Model bezpieczeństwa CIA i ochrona infrastruktury}{25}{subsection.2.7.1}%
 \contentsline {subsubsection}{Triada CIA w środowisku bazodanowym}{26}{subsubsection*.40}%
 \contentsline {subsubsection}{Izolacja sieciowa i architektura chmurowa (VPC)}{26}{subsubsection*.41}%
 \contentsline {subsubsection}{Konteneryzacja a bezpieczeństwo bazy}{26}{subsubsection*.42}%
-\contentsline {subsection}{\numberline {2.7.2}2. Ataki na bazy danych i luki w zabezpieczeniach}{27}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.2}Ataki na bazy danych i luki w zabezpieczeniach}{27}{subsection.2.7.2}%
 \contentsline {subsubsection}{Wstrzykiwanie kodu SQL (SQL Injection)}{27}{subsubsection*.43}%
-\contentsline {subsubsection}{Ataki NoSQL Injection}{28}{subsubsection*.44}%
+\contentsline {subsubsection}{Ataki NoSQL Injection}{27}{subsubsection*.44}%
 \contentsline {subsubsection}{Przepełnienie bufora (Buffer Overflow) w DBMS}{28}{subsubsection*.45}%
 \contentsline {subsubsection}{Odmowa Usługi (DoS) na poziomie bazy danych}{28}{subsubsection*.46}%
-\contentsline {subsubsection}{Automatyzacja ataków: Narzędzia audytowe}{29}{subsubsection*.47}%
-\contentsline {subsection}{\numberline {2.7.3}3. Zarządzanie tożsamością, uwierzytelnianie i autoryzacja}{29}{subsection.2.7.3}%
+\contentsline {subsubsection}{Automatyzacja ataków: Narzędzia audytowe}{28}{subsubsection*.47}%
+\contentsline {subsection}{\numberline {2.7.3}Zarządzanie tożsamością, uwierzytelnianie i autoryzacja}{29}{subsection.2.7.3}%
 \contentsline {subsubsection}{Uwierzytelnianie w bazach danych}{29}{subsubsection*.48}%
 \contentsline {subsubsection}{Autoryzacja i modele kontroli dostępu}{29}{subsubsection*.49}%
 \contentsline {subsubsection}{Bezpieczeństwo na poziomie wierszy (Row\sphinxhyphen {}Level Security)}{30}{subsubsection*.50}%
 \contentsline {subsubsection}{Zarządzanie poświadczeniami aplikacji (Secrets Management)}{30}{subsubsection*.51}%
-\contentsline {subsection}{\numberline {2.7.4}4. Kryptografia w bazach danych}{30}{subsection.2.7.4}%
-\contentsline {subsubsection}{Szyfrowanie danych w spoczynku (Data at Rest)}{31}{subsubsection*.52}%
+\contentsline {subsection}{\numberline {2.7.4}Kryptografia w bazach danych}{30}{subsection.2.7.4}%
+\contentsline {subsubsection}{Szyfrowanie danych w spoczynku (Data at Rest)}{30}{subsubsection*.52}%
 \contentsline {subsubsection}{Szyfrowanie danych w tranzycie (Data in Transit)}{31}{subsubsection*.53}%
 \contentsline {subsubsection}{Szyfrowanie na poziomie klienta (Client\sphinxhyphen {}Side Encryption)}{31}{subsubsection*.54}%
-\contentsline {subsubsection}{Dynamiczne maskowanie danych i funkcje skrótu}{32}{subsubsection*.55}%
-\contentsline {subsection}{\numberline {2.7.5}5. Audyt, logowanie i wykrywanie anomalii}{32}{subsection.2.7.5}%
+\contentsline {subsubsection}{Dynamiczne maskowanie danych i funkcje skrótu}{31}{subsubsection*.55}%
+\contentsline {subsection}{\numberline {2.7.5}Audyt, logowanie i wykrywanie anomalii}{31}{subsection.2.7.5}%
 \contentsline {subsubsection}{Znaczenie audytu i rodzaje logów bazodanowych}{32}{subsubsection*.56}%
 \contentsline {subsubsection}{Centralizacja logów i systemy SIEM}{32}{subsubsection*.57}%
-\contentsline {subsubsection}{Database Activity Monitoring (DAM) i wykrywanie anomalii}{33}{subsubsection*.58}%
-\contentsline {subsection}{\numberline {2.7.6}6. Bezpieczeństwo kopii zapasowych i Disaster Recovery}{33}{subsection.2.7.6}%
+\contentsline {subsubsection}{Database Activity Monitoring (DAM) i wykrywanie anomalii}{32}{subsubsection*.58}%
+\contentsline {subsection}{\numberline {2.7.6}Bezpieczeństwo kopii zapasowych i Disaster Recovery}{32}{subsection.2.7.6}%
 \contentsline {subsubsection}{Zasada 3\sphinxhyphen {}2\sphinxhyphen {}1 i niezmienność kopii (Immutable Backups)}{33}{subsubsection*.59}%
 \contentsline {subsubsection}{Szyfrowanie archiwów i zarządzanie kluczami}{33}{subsubsection*.60}%
-\contentsline {subsubsection}{Disaster Recovery (DR) i wskaźniki RTO/RPO}{34}{subsubsection*.61}%
+\contentsline {subsubsection}{Disaster Recovery (DR) i wskaźniki RTO/RPO}{33}{subsubsection*.61}%
 \contentsline {section}{\numberline {2.8}Kopie zapasowe i odzyskiwanie danych}{34}{section.2.8}%
 \contentsline {subsection}{\numberline {2.8.1}Wstęp}{34}{subsection.2.8.1}%
 \contentsline {subsection}{\numberline {2.8.2}Tworzenie kopii zapasowej całego systemu PostgreSQL \sphinxhyphen {} mechanizmy wbudowane}{34}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Tworzenie kopii zapasowych poszczególnych baz danych \sphinxhyphen {} mechanizmy wbudowane}{35}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.3}Tworzenie kopii zapasowych poszczególnych baz danych \sphinxhyphen {} mechanizmy wbudowane}{34}{subsection.2.8.3}%
 \contentsline {subsection}{\numberline {2.8.4}Odzyskiwanie usuniętych lub uszkodzonych danych}{35}{subsection.2.8.4}%
 \contentsline {subsubsection}{Odtwarzanie tabel i innych obiektów logicznych}{35}{subsubsection*.62}%
-\contentsline {subsubsection}{Odtwarzanie usuniętej bazy danych}{36}{subsubsection*.63}%
-\contentsline {subsubsection}{Odtwarzanie przestrzeni tabel i pełnego klastra}{36}{subsubsection*.64}%
-\contentsline {subsubsection}{PITR i odzyskiwanie stanu sprzed błędu}{36}{subsubsection*.65}%
+\contentsline {subsubsection}{Odtwarzanie usuniętej bazy danych}{35}{subsubsection*.63}%
+\contentsline {subsubsection}{Odtwarzanie przestrzeni tabel i pełnego klastra}{35}{subsubsection*.64}%
+\contentsline {subsubsection}{PITR i odzyskiwanie stanu sprzed błędu}{35}{subsubsection*.65}%
 \contentsline {subsection}{\numberline {2.8.5}Dedykowane oprogramowanie i skrypty zewnętrzne do automatyzacji}{36}{subsection.2.8.5}%
-\contentsline {subsection}{\numberline {2.8.6}Podsumowanie}{37}{subsection.2.8.6}%
-\contentsline {chapter}{\numberline {3}Projektowanie bazy danych}{38}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Wybór zagadnienia, opis procesów i danych}{38}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Prototyp CSV}{39}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Model Konceptualny}{39}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Zidentyfikowane encje}{39}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Zdefiniowane atrybuty/własności}{39}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Opis związków}{40}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Określenie związków niepoprawnych (pułapki połączeń)}{40}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Identyfikacja encji słabych}{40}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}Schemat w notacji Chena}{40}{subsection.3.3.6}%
-\contentsline {section}{\numberline {3.4}Model logiczny i proces normalizacji}{40}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Przebieg procesu normalizacji}{40}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Ostateczna struktura tabel (3NF)}{42}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Diagram ERD (Model Logiczny)}{42}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Model fizyczny bazy danych}{42}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Model fizyczny dla środowiska SQLite}{42}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Model fizyczny dla środowiska PostgreSQL}{43}{subsection.3.5.2}%
-\contentsline {chapter}{\numberline {4}Implementacja fizyczna i zasilanie bazy danych}{46}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Wprowadzenie}{46}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Definicja fizyczna bazy danych (Zadanie 1)}{46}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Skrypt dla środowiska PostgreSQL}{47}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Skrypt dla środowiska SQLite}{48}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Mechanizm zasilania bazy danych (Zadanie 2)}{48}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Formatowanie danych (Pliki CSV)}{48}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Implementacja mechanizmu importu}{49}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Podsumowanie}{50}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Zapytania do bazy danych}{51}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Wprowadzenie}{51}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Środowisko uruchomieniowe i architektura}{51}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Złożoność zapytań SQL}{51}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Dokumentacja modułu zapytań (Auto\sphinxhyphen {}Sphinx)}{52}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Funkcje dedykowane dla SQLite}{52}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Funkcje dedykowane dla PostgreSQL}{53}{subsection.5.4.2}%
-\contentsline {chapter}{Indeks modułów Pythona}{54}{section*.87}%
+\contentsline {subsection}{\numberline {2.8.6}Podsumowanie}{36}{subsection.2.8.6}%
+\contentsline {chapter}{\numberline {3}Projektowanie bazy danych}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wybór zagadnienia, opis procesów i danych}{37}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Prototyp CSV}{38}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Model Konceptualny}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Zidentyfikowane encje}{38}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Zdefiniowane atrybuty/własności}{38}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Opis związków}{39}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Określenie związków niepoprawnych (pułapki połączeń)}{39}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Identyfikacja encji słabych}{39}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Schemat w notacji Chena}{39}{subsection.3.3.6}%
+\contentsline {section}{\numberline {3.4}Model logiczny i proces normalizacji}{39}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Przebieg procesu normalizacji}{39}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Ostateczna struktura tabel (3NF)}{41}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Diagram ERD (Model Logiczny)}{41}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Model fizyczny bazy danych}{41}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Model fizyczny dla środowiska SQLite}{41}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Model fizyczny dla środowiska PostgreSQL}{42}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {4}Implementacja fizyczna i zasilanie bazy danych}{45}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Wprowadzenie}{45}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Definicja fizyczna bazy danych (Zadanie 1)}{45}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Skrypt dla środowiska PostgreSQL}{46}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Skrypt dla środowiska SQLite}{47}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Mechanizm zasilania bazy danych (Zadanie 2)}{47}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Formatowanie danych (Pliki CSV)}{47}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Implementacja mechanizmu importu}{48}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Podsumowanie}{49}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Zapytania do bazy danych}{50}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Wprowadzenie}{50}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Środowisko uruchomieniowe i architektura}{50}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Złożoność zapytań SQL}{50}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Dokumentacja modułu zapytań (Auto\sphinxhyphen {}Sphinx)}{51}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Funkcje dedykowane dla SQLite}{51}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Funkcje dedykowane dla PostgreSQL}{52}{subsection.5.4.2}%
+\contentsline {chapter}{Indeks modułów Pythona}{53}{section*.87}%
