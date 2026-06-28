@@ -1,16 +1,16 @@
-=========================================
-Sprawozdanie: Projektowanie bazy danych
-=========================================
+=========================
+Projektowanie bazy danych
+=========================
 
 :Autorzy:
     1. Oskar Mąka
     2. Daniel Szokało
-    3. Dawid Szkoało
+    3. Dawid Szokało
 
 * **Link do repozytorium z modułem:** `https://github.com/oski486/BD_PlanBazyDanych_zad1`
 
-1. Wybór zagadnienia, opis procesów i danych
-============================================
+Wybór zagadnienia, opis procesów i danych
+=========================================
 
 **Wybrane zagadnienie:** System zarządzania sprzedażą w sklepie internetowym z elektroniką.
 Projekt obejmuje obsługę bazy klientów, katalogu produktów elektronicznych (z uwzględnieniem producentów i okresów gwarancyjnych), kategoryzacji sprzętu, a także pełen proces składania i obsługi zamówień, płatności, dostaw oraz systemu ocen.
@@ -35,8 +35,8 @@ Głównym procesem w systemie jest realizacja transakcji zakupu sprzętu elektro
 * **Dane szczegółowe transakcji:** Ilość zamawianych sztuk, Cena zakupu (historyczna).
 * **Dane opinii:** Ocena (1-5), Komentarz.
 
-2. Prototyp CSV
-===============
+Prototyp CSV
+=============
 
 Aby zweryfikować kompletność przetwarzanych informacji, przygotowano "płaską" (nieznormalizowaną) reprezentację danych dla transakcji zakupu.
 
@@ -46,8 +46,8 @@ Aby zweryfikować kompletność przetwarzanych informacji, przygotowano "płask�
     Jan,Kowalski,250123@student.pwr.edu.pl,500600700,Wrocław,Wybrzeże Wyspiańskiego 27,50-370,Laptop ThinkPad T14,Lenovo,Komputery,6500.00,36,2023-11-20,Dostarczone,Paczkomat,BLIK,Zakonczona,1,6500.00,5,"Solidny sprzęt na studia."
     Jan,Kowalski,250123@student.pwr.edu.pl,500600700,Wrocław,Wybrzeże Wyspiańskiego 27,50-370,Mysz MX Master 3S,Logitech,Akcesoria,450.00,24,2023-11-20,Dostarczone,Paczkomat,BLIK,Zakonczona,1,430.00,4,"Trochę ciężka, ale ergonomiczna."
 
-3. Model Konceptualny (Pojęciowy)
-=================================
+Model Konceptualny
+==================
 
 Na podstawie analizy procesów i zebranych danych opracowano model pojęciowy, identyfikując obiekty, ich cechy oraz powiązania.
 
@@ -106,11 +106,11 @@ Schemat w notacji Chena
 
    Rysunek 1: Model konceptualny bazy danych sklepu z elektroniką.
 
-4. Model logiczny i proces normalizacji
-=======================================
+Model logiczny i proces normalizacji
+====================================
 
-4.1. Przebieg procesu normalizacji
-----------------------------------
+Przebieg procesu normalizacji
+-----------------------------
 
 **Krok 1: Pierwsza Postać Normalna (1NF)**
 
@@ -131,8 +131,8 @@ Schemat w notacji Chena
     3. Z tabeli *Zamówienia* wyodrębniamy kwestie finansowe do osobnej tabeli **Platnosci**.
     4. Z tabeli *Pozycje_Zamowienia* odłączamy atrybuty opcjonalne (opinie), przenosząc je do tabeli **Opinie** połączonej z pozycją koszyka.
 
-4.2. Ostateczna struktura tabel (3NF)
--------------------------------------
+Ostateczna struktura tabel (3NF)
+--------------------------------
 
 W wyniku normalizacji wyodrębniono 8 tabel.
 
@@ -145,8 +145,8 @@ W wyniku normalizacji wyodrębniono 8 tabel.
 * **Pozycje_Zamowienia**: ``ID_Pozycji`` (PK), ``ID_Zamowienia`` (FK), ``ID_Produktu`` (FK), ``Ilosc``, ``Cena_historyczna``
 * **Opinie**: ``ID_Opinii`` (PK), ``ID_Pozycji`` (FK), ``Ocena``, ``Komentarz``
 
-4.3. Diagram ERD (Model Logiczny)
----------------------------------
+Diagram ERD (Model Logiczny)
+----------------------------
 
 .. figure:: schemat_erd.png
    :align: center
@@ -154,13 +154,13 @@ W wyniku normalizacji wyodrębniono 8 tabel.
 
    Rysunek 2: Model logiczny (ERD) bazy danych sprzętu elektronicznego (3NF).
 
-5. Model fizyczny bazy danych
-================================
+Model fizyczny bazy danych
+==========================
 
 Różnice implementacyjne między modelami fizycznymi wynikają wprost z silników RDBMS – ograniczeń typowania SQLite oraz bogatych możliwości deklaratywnych PostgreSQL.
 
-5.1. Model fizyczny dla środowiska SQLite
------------------------------------------
+Model fizyczny dla środowiska SQLite
+------------------------------------
 
 Z uwagi na bardzo okrojony zestaw typów (INTEGER, REAL, TEXT, BLOB, NULL), daty są mapowane jako TEXT, a wartości finansowe na REAL. Boolean (dla opcjonalnych flag) również interpretowany jest wewnętrznie jako INTEGER.
 
@@ -181,8 +181,8 @@ Z uwagi na bardzo okrojony zestaw typów (INTEGER, REAL, TEXT, BLOB, NULL), daty
 
    Rysunek 3: Fizyczny schemat bazy danych opracowany dla silnika SQLite.
 
-5.2. Model fizyczny dla środowiska PostgreSQL
----------------------------------------------
+Model fizyczny dla środowiska PostgreSQL
+----------------------------------------
 
 PostgreSQL umożliwia zastosowanie precyzyjnych i natywnych typów ułatwiających późniejszą obsługę – m.in. typów numerycznych dla cen (unikających błędu precyzji zmiennoprzecinkowej), typów czasowych z odpowiednią strefą oraz ścisłych ograniczeń długości łańcuchów znaków.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.27)  28 JUN 2026 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.27)  28 JUN 2026 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -979,16 +979,16 @@ Rozdzia\l  3.
 <schemat_chena.png, id=960, 1059.96pt x 773.89125pt>
 File: schemat_chena.png Graphic file (type png)
 <use schemat_chena.png>
-Package pdftex.def Info: schemat_chena.png  used on input line 2809.
+Package pdftex.def Info: schemat_chena.png  used on input line 2812.
 (pdftex.def)             Requested size: 469.74797pt x 342.96939pt.
  [40] [41 <./schemat_chena.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 2842--2844
+Underfull \hbox (badness 10000) in paragraph at lines 2845--2847
 []\T1/qtm/m/n/10 Za-le»ne od ca-ªego klu-cza: Ilo±¢, Cena_historyczna, Ocena, K
 o-men-tarz -> Ta-bela \T1/qtm/b/n/10 Po-zy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2902--2904
+Underfull \hbox (badness 10000) in paragraph at lines 2905--2907
 []\T1/qtm/b/n/10 Za-mo-wie-nia\T1/qtm/m/n/10 : \T1/txtt/m/n/10 ID_Zamowienia \T
 1/qtm/m/n/10 (PK), \T1/txtt/m/n/10 ID_Klienta \T1/qtm/m/n/10 (FK), \T1/txtt/m/n
 /10 Data_zamowienia\T1/qtm/m/n/10 , \T1/txtt/m/n/10 Status_zamowienia\T1/qtm/m/
@@ -996,7 +996,7 @@ n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2910--2912
+Underfull \hbox (badness 10000) in paragraph at lines 2913--2915
 []\T1/qtm/b/n/10 Po-zy-cje_Zamowienia\T1/qtm/m/n/10 : \T1/txtt/m/n/10 ID_Pozycj
 i \T1/qtm/m/n/10 (PK), \T1/txtt/m/n/10 ID_Zamowienia \T1/qtm/m/n/10 (FK), \T1/t
 xtt/m/n/10 ID_Produktu \T1/qtm/m/n/10 (FK), \T1/txtt/m/n/10 Ilosc\T1/qtm/m/n/10
@@ -1006,10 +1006,10 @@ xtt/m/n/10 ID_Produktu \T1/qtm/m/n/10 (FK), \T1/txtt/m/n/10 Ilosc\T1/qtm/m/n/10
 <schemat_erd.png, id=973, 779.16093pt x 496.10344pt>
 File: schemat_erd.png Graphic file (type png)
 <use schemat_erd.png>
-Package pdftex.def Info: schemat_erd.png  used on input line 2926.
+Package pdftex.def Info: schemat_erd.png  used on input line 2929.
 (pdftex.def)             Requested size: 469.7472pt x 299.10263pt.
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 2969--2971
+Underfull \hbox (badness 10000) in paragraph at lines 2972--2974
 []\T1/qtm/b/n/10 Po-zy-cje_Zamowienia\T1/qtm/m/n/10 : \T1/txtt/m/n/10 ID_Pozycj
 i \T1/qtm/m/n/10 : IN-TE-GER PRI-MARY KEY, \T1/txtt/m/n/10 ID_Zamowienia \T1/qt
 m/m/n/10 : IN-TE-GER,
@@ -1018,10 +1018,10 @@ m/m/n/10 : IN-TE-GER,
 <schemat_fizyczny_sqlite.png, id=985, 920.68968pt x 513.41812pt>
 File: schemat_fizyczny_sqlite.png Graphic file (type png)
 <use schemat_fizyczny_sqlite.png>
-Package pdftex.def Info: schemat_fizyczny_sqlite.png  used on input line 2982.
+Package pdftex.def Info: schemat_fizyczny_sqlite.png  used on input line 2985.
 (pdftex.def)             Requested size: 469.77031pt x 261.95728pt.
 [43 <./schemat_erd.png>]
-Underfull \hbox (badness 7397) in paragraph at lines 3023--3025
+Underfull \hbox (badness 7397) in paragraph at lines 3026--3028
 []\T1/qtm/b/n/10 Opi-nie\T1/qtm/m/n/10 : \T1/txtt/m/n/10 ID_Opinii \T1/qtm/m/n/
 10 : SE-RIAL PRI-MARY KEY, \T1/txtt/m/n/10 ID_Pozycji \T1/qtm/m/n/10 : IN-TE-GE
 R RE-FE-REN-CES Po-zy-
@@ -1030,20 +1030,20 @@ R RE-FE-REN-CES Po-zy-
 <schemat_fizyczny_postgres.png, id=991, 900.36375pt x 490.08093pt>
 File: schemat_fizyczny_postgres.png Graphic file (type png)
 <use schemat_fizyczny_postgres.png>
-Package pdftex.def Info: schemat_fizyczny_postgres.png  used on input line 3032
+Package pdftex.def Info: schemat_fizyczny_postgres.png  used on input line 3035
 .
 (pdftex.def)             Requested size: 469.75803pt x 255.68857pt.
 [44 <./schemat_fizyczny_sqlite.png>] [45 <./schemat_fizyczny_postgres.png>]
 Rozdzia\l  4.
-[46
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 3098--3101
+Underfull \hbox (badness 10000) in paragraph at lines 3093--3096
 []\T1/qtm/m/n/10 Kod ¹ró-dªowy skryp-tów wdro-»e-nio-wych oraz pliki kon-fi-gu-
 ra-cyjne zo-staªy umiesz-czone w de-dy-ko-wa-
  []
 
-[47] [48] [49] [50]
+[46
+
+] [47] [48] [49] [50]
 Rozdzia\l  5.
 [51
 
@@ -1064,12 +1064,12 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `sprawozdaniezbazydanych.out' has not changed
 .
-(rerunfilecheck)             Checksum: A412406078D8BDA0F1C622F2960A0075;38792.
+(rerunfilecheck)             Checksum: 72D5E230FA6BC009F92009C9599051E6;38053.
  ) 
 Here is how much of TeX's memory you used:
  22059 strings out of 467509
- 414708 string characters out of 5408780
- 887593 words of memory out of 5000000
+ 414663 string characters out of 5408780
+ 884414 words of memory out of 5000000
  50557 multiletter control sequences out of 15000+600000
  693979 words of font info for 88 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -1088,7 +1088,7 @@ a/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users
 sers/DawDa/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><
 C:/Users/DawDa/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/tcxtt.p
 fb>
-Output written on sprawozdaniezbazydanych.pdf (56 pages, 799180 bytes).
+Output written on sprawozdaniezbazydanych.pdf (56 pages, 797626 bytes).
 PDF statistics:
  1195 PDF objects out of 1200 (max. 8388607)
  328 named destinations out of 1000 (max. 500000)

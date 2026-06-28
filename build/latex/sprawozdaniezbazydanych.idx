@@ -10,10 +10,10 @@
 \indexentry{get\_product\_revenue\_report\_sqlite() (w module db\_queries)@\spxentry{get\_product\_revenue\_report\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{52}
 \indexentry{get\_products\_needing\_attention\_pg() (w module db\_queries)@\spxentry{get\_products\_needing\_attention\_pg()}\spxextra{w module db\_queries}|hyperpage}{52}
 \indexentry{get\_top\_spending\_clients\_sqlite() (w module db\_queries)@\spxentry{get\_top\_spending\_clients\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{52}
-\indexentry{get\_top\_spending\_clients\_sqlite() (w module db\_queries)@\spxentry{get\_top\_spending\_clients\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{53}
-\indexentry{get\_clients\_without\_opinions\_sqlite() (w module db\_queries)@\spxentry{get\_clients\_without\_opinions\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{53}
-\indexentry{get\_product\_revenue\_report\_sqlite() (w module db\_queries)@\spxentry{get\_product\_revenue\_report\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{53}
-\indexentry{get\_categories\_without\_stock\_sqlite() (w module db\_queries)@\spxentry{get\_categories\_without\_stock\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{53}
+\indexentry{get\_top\_spending\_clients\_sqlite() (w module db\_queries)@\spxentry{get\_top\_spending\_clients\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{52}
+\indexentry{get\_clients\_without\_opinions\_sqlite() (w module db\_queries)@\spxentry{get\_clients\_without\_opinions\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{52}
+\indexentry{get\_product\_revenue\_report\_sqlite() (w module db\_queries)@\spxentry{get\_product\_revenue\_report\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{52}
+\indexentry{get\_categories\_without\_stock\_sqlite() (w module db\_queries)@\spxentry{get\_categories\_without\_stock\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{52}
 \indexentry{get\_order\_full\_details\_sqlite() (w module db\_queries)@\spxentry{get\_order\_full\_details\_sqlite()}\spxextra{w module db\_queries}|hyperpage}{53}
 \indexentry{get\_monthly\_sales\_summary\_pg() (w module db\_queries)@\spxentry{get\_monthly\_sales\_summary\_pg()}\spxextra{w module db\_queries}|hyperpage}{53}
 \indexentry{get\_products\_needing\_attention\_pg() (w module db\_queries)@\spxentry{get\_products\_needing\_attention\_pg()}\spxextra{w module db\_queries}|hyperpage}{53}
